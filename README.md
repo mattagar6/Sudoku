@@ -1,2 +1,2 @@
 # Sudoku
-My Sudoku Solver
+My Sudoku Solver (JS)
