@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SUDOKU</title>
+    <link rel="stylesheet" href="board.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <table align = 'center'>
+      <h1>Sudoku Solver</h1>
+      <colgroup><col><col><col>
+      <colgroup><col><col><col>
+      <colgroup><col><col><col>
+      <tbody>
+       <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+       <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+       <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+            <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+      <tbody>
+        <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+        <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+        <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+      <tbody>
+        <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+        <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+        <tr> <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+             <td><input type="text" maxlength="1"><td><input type="text" maxlength="1"><td><input type="text" maxlength="1">
+
+    </table>
+
+    <div class="container" style='text-align:center'>
+      <p></p>
+      <input id = 'random' class = 'btn btn-primary' type="submit" name="" value="Random Puzzle">
+      <p></p>
+      <input id = 'solve' class = 'btn btn-primary' type="submit" name="" value="Solve">
+      <p></p>
+      <input id = 'reset' class = 'btn btn-primary' type="submit" name="" value="Reset">
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+    <script src = 'sudoku.js'></script>
+  </body>
+</html>
