@@ -1,2 +1,2 @@
 # Sudoku
-My Sudoku Solver (JS)
+My Sudoku Solver from www.theblondekid.com
